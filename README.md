@@ -19,6 +19,7 @@ The goal of this artifact is to:
 
 ##  Repository Structure
 
+```
 ├── Datasets/ # Datasets used in the study
 ├── Extraction_Schema/ # Schema used to extract data from paper surveys using Airparser
 ├── Hidden_test/ # Contains hidden tests used in the experiments
@@ -32,3 +33,4 @@ The goal of this artifact is to:
 │ ├── Phase2/ # Contains change rationale and impact predictions
 │ ├── demographics/ # Contains demographic survey, data, and analysis
 └── README.md # This file
+```
