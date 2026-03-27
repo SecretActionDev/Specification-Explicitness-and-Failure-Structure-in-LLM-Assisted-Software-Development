@@ -1,0 +1,103 @@
+{
+  "fields": [
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_ip_1",
+        "description": "Extract the answer to question 1 on page 1, which is one of the selected options.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_ip_2",
+        "description": "Extract the handwritten answer to question 2 on page 1.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_ip_3",
+        "description": "Extract the answer to question 3 on page 1, which is one of the selected options.  There can be multiple answers.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_ip_4",
+        "description": "Extract the answer to question 4 on page 1, which is one of the selected options.  There can be multiple answers.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_ip_5",
+        "description": "Extract the handwritten answer to question 5 on page 1.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_cr_1",
+        "description": "extract answer to question 1 on page 4. The answer is one of the selected options",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_cr_2",
+        "description": "Extract the answer to question 2 on page 2, which is an integer.",
+        "type": "integer",
+        "default_value": "0"
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_cr_3",
+        "description": "Extract the answer to question 3 on page 2, which is one of the selected options.  There can be multiple answers.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_cr_4",
+        "description": "Extract the handwritten answer to question 3 on page 2. which is the last question on this page.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_cr_5",
+        "description": "Extract the handwritten answer to question 4 on page 3.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g1_cr_6",
+        "description": "Extract the answer to question 5 on page 3, which is one of the selected options.",
+        "type": "string",
+        "default_value": ""
+      }
+    }
+  ]
+}

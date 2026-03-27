@@ -1,0 +1,220 @@
+{
+  "fields": [
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_ip_1",
+        "description": "Extract the answer to question 1 on page 1, which is one of the selected options.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_ip_2",
+        "description": "Extract the handwritten answer to question 2 on page 1.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_ip_3",
+        "description": "Extract the answer to question 3 on page 1, which is one of the selected options.  There can be multiple answers.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_ip_4",
+        "description": "Extract the answer to question 4 on page 1, which is one of the selected options.  There can be multiple answers.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_ip_5",
+        "description": "Extract the handwritten answer to question 5 on page 1.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_cr_1",
+        "description": "extract answer to question 1 to change rationale on page 3. The answer is one of the selected options",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_cr_2",
+        "description": "Extract the answer to question 2 on page 4, which is an integer.",
+        "type": "integer",
+        "default_value": "0"
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_cr_3",
+        "description": "Extract the answer to question 3 on page 4, which is one of the selected options.  There can be multiple answers.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_cr_4",
+        "description": "Extract the handwritten answer to question 3 on page 4. which is the third question on this page.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_cr_5",
+        "description": "Extract the handwritten answer to question 4 on page 4. this the fourth question on the page.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_cr_6",
+        "description": "Extract the answer to question 5 on page 4, which is one of the selected options. This is the fifth question on the page.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_goal",
+        "description": "Extract the handwritten goal of the system on page 2.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_input",
+        "description": "Extract the handwritten input of the system on page 2.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "after_g2_output",
+        "description": "Extract the handwritten output of the system on page 2.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "name": "after_g2_ac",
+        "description": "Extract the handwritten acceptance criteria of the system on page 2. Extract the list of six handwritten element.",
+        "attributes": [
+          {
+            "name": "ac_1",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_2",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_3",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_4",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_5",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_6",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "name": "after_g2_constraints",
+        "description": "Extract the handwritten constraints of the system on page 3. Extract the list of six handwritten elements.",
+        "attributes": [
+          {
+            "name": "c_1",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_2",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_3",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_4",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_5",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_6",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          }
+        ]
+      }
+    }
+  ]
+}

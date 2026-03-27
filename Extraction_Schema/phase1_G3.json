@@ -1,0 +1,292 @@
+{
+  "fields": [
+    {
+      "type": "scalar",
+      "data": {
+        "name": "id",
+        "description": "Do not extract anything for this, but have the field in json",
+        "type": "integer",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_goal",
+        "description": "The handwritten response to the Goal on page 1.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_input",
+        "description": "The handwritten response to the input on page 1 answers the question of describing each input parameter.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_output",
+        "description": "The handwritten response to the output on page 1.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "name": "before_g3_invariants",
+        "description": "The invariants of the system that must always hold on page 3. Extract the list of up to 3 handwritten responses.",
+        "attributes": [
+          {
+            "name": "inv_1",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "inv_2",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "inv_3",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "name": "before_g3_constraints",
+        "description": "The constraints and assumptions of the system before the requirement change on page 2. Extract a list of up to 6  handwritten responses.",
+        "attributes": [
+          {
+            "name": "c_1",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_2",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_3",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_4",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_5",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_6",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_p_1",
+        "description": "Extract the selected option to question 1 on page 5, titled prediction sheet.  The option is one of the ones in the possible values and has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_p_2",
+        "description": "Extract the selected option to question 2 on page 5, titled prediction sheet.  The option is one of the ones in the possible values and has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_p_3",
+        "description": "Extract the selected option to question 3 on page 5, titled prediction sheet.  The option is one of the ones in the possible values and has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_p_4",
+        "description": "prediction question 4 before the requirement change on page 5. Extract the number written in empty space.",
+        "type": "integer",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_p_5",
+        "description": "Extract the selected option to question 5 on page 5, titled prediction sheet.  The option is one or more of the ones in the possible values and has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_p_6",
+        "description": "Extract the selected option to question 6 on page 6.  The option has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_p_7",
+        "description": "Extract the selected option to question 7 on page 6. The option has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_p_8",
+        "description": "Extract the selected option to question 8 on page 6. The option has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "name": "before_g3_frs",
+        "description": "Extract a list of handwritten functional requirements on page 2.  Extract a list of up to 10 handwritten responses.",
+        "attributes": [
+          {
+            "name": "fr_1",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_2",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_3",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_4",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_5",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_6",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_7",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_8",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_9",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "fr_10",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "name": "before_g3_neg_req",
+        "description": "The negative requirements of the system are on page 3. Extract a list of up to 2  handwritten responses.",
+        "attributes": [
+          {
+            "name": "neg_req_1",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "neg_req_2",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_tie_breaking",
+        "description": "The handwritten response to the tie-breaking rule on page 3.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g3_exception",
+        "description": "The handwritten response to the Exception and Day-specific Rules on page 4.",
+        "type": "string",
+        "default_value": ""
+      }
+    }
+  ]
+}
