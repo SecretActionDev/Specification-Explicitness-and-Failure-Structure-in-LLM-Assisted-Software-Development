@@ -21,14 +21,14 @@ The goal of this artifact is to:
 
 ├── Datasets/ # Datasets used in the study
 ├── Extraction_Schema/ # Schema used to extract data from paper surveys using Airparser
-├── Hidden_test/ # contains hidden tests used in the experiments. 
+├── Hidden_test/ # Contains hidden tests used in the experiments
 ├── analysis/ # Reproducibility for the results
-├── Failure_mode_mapping/  # mapping schema for failure modes covered by hidden tests
-├──implementations/ #contains code implemented by the participants
-| ├──Phase1_codes.zip
-| ├──Phase2_codes.zip
-├──surveys # contains survey templates used to gather data from participants
-| ├──Phase1 # contains prediction sheet 
-| ├──Phase2 # contains change rationale and impact predictions
-| ├──demographics # contains demographic survey, data, and analysis
+├── Failure_mode_mapping/ # Mapping schema for failure modes covered by hidden tests
+├── implementations/ # Contains code implemented by the participants
+│ ├── Phase1_codes.zip
+│ ├── Phase2_codes.zip
+├── surveys/ # Contains survey templates used to gather data from participants
+│ ├── Phase1/ # Contains prediction sheets
+│ ├── Phase2/ # Contains change rationale and impact predictions
+│ ├── demographics/ # Contains demographic survey, data, and analysis
 └── README.md # This file
