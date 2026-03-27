@@ -1,0 +1,202 @@
+{
+  "fields": [
+    {
+      "type": "scalar",
+      "data": {
+        "name": "id",
+        "description": "The nine-digit student number on page 1",
+        "type": "integer",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_goal",
+        "description": "The handwritten response to the Goal on page 5.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_input",
+        "description": "The handwritten response to the input on page 5 answers the question of describing each input parameter.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_output",
+        "description": "The handwritten response to the output on page 5.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "name": "before_g2_ac",
+        "description": "The acceptance criteria of the system before the requirement change on page 6. Extract the list of up to 6 handwritten responses.",
+        "attributes": [
+          {
+            "name": "ac_1",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_2",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_3",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_4",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_5",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "ac_6",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "data": {
+        "name": "before_g2_constraints",
+        "description": "The constraints and assumptions of the system before the requirement change on page 6. Extract a list of up to 6  handwritten responses.",
+        "attributes": [
+          {
+            "name": "c_1",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_2",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_3",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_4",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_5",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          },
+          {
+            "name": "c_6",
+            "description": "",
+            "type": "string",
+            "default_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_p_1",
+        "description": "Extract the selected option to question 1 on page 7, titled prediction sheet.  The option is one of the ones in the possible values and has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_p_2",
+        "description": "Extract the selected option to question 2 on page 7, titled prediction sheet.  The option is one of the ones in the possible values and has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_p_3",
+        "description": "Extract the selected option to question 3 on page 7, titled prediction sheet.  The option is one of the ones in the possible values and has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_p_4",
+        "description": "prediction question 4 before the requirement change on page 7. Extract the number written in empty space.",
+        "type": "integer",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_p_5",
+        "description": "Extract the selected option to question 5 on page 7, titled prediction sheet.  The option is one or more of the ones in the possible values and has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_p_6",
+        "description": "Extract the selected option to question 6 on page 8.  The option has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_p_7",
+        "description": "Extract the selected option to question 7 on page 8. The option has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    },
+    {
+      "type": "scalar",
+      "data": {
+        "name": "before_g2_p_8",
+        "description": "Extract the selected option to question 8 on page 8. The option has a mark next to it in the document.",
+        "type": "string",
+        "default_value": ""
+      }
+    }
+  ]
+}
